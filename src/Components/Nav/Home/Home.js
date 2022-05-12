@@ -29,7 +29,7 @@ const Home = () => {
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the
               </p>
-              <button className="btn text-white border-transparent bg-gradient-to-r text-bold from-primary to-secondary">
+              <button className="btn text-white text-bold border-transparent bg-gradient-to-r from-primary to-secondary">
                 GET STARTED
               </button>
             </div>
