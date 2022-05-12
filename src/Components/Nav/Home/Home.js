@@ -177,60 +177,116 @@ const Home = () => {
 
       {/* tesimonial.......... */}
 
-      <section className="px-14" >
+      <section className="px-14 py-20">
         <h1 className="text-xl text-primary font-bold">Testimonial</h1>
         <h1 className="text-4xl ">What Our Patients Says</h1>
 
         <div className="my-24 py-2 lg:grid grid-cols-3 gap-12">
-
           <div class="card w-100 bg-base-100 shadow-xl pb-4 my-4">
-            <div class="card-body"> 
-              <p>It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content</p>
+            <div class="card-body">
+              <p>
+                It is a long established fact that by the readable content of a
+                lot layout. The point of using Lorem a more-or-less normal
+                distribu to using Content here, content
+              </p>
             </div>
-            <div className='flex justify-center items-center'>
-              <img src={newpic} alt="img" />
-              <div className='mx-4'>
-              <h1>Winson Herry</h1>
-              
-              <h2>California</h2>
+            <div className="flex justify-center items-center">
+              <img
+                className="rounded-full ring ring-primary"
+                src={newpic}
+                alt="img"
+              />
+              <div className="mx-4">
+                <h1>Winson Herry</h1>
+
+                <h2>California</h2>
               </div>
-              
             </div>
           </div>
 
-
           <div class="card w-100 bg-base-100 shadow-xl pb-4 my-4">
-            <div class="card-body"> 
-              <p>It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content</p>
+            <div class="card-body">
+              <p>
+                It is a long established fact that by the readable content of a
+                lot layout. The point of using Lorem a more-or-less normal
+                distribu to using Content here, content
+              </p>
             </div>
-            <div className='flex justify-center items-center'>
-              <img className='border-primary rounded-lg' src={newpic} alt="img" />
-              <div className='mx-4'>
-              <h1>Winson Herry</h1>
-              
-              <h2>California</h2>
+            <div className="flex justify-center items-center">
+              <img
+                className="rounded-full ring ring-primary"
+                src={newpic}
+                alt="img"
+              />
+              <div className="mx-4">
+                <h1>Winson Herry</h1>
+
+                <h2>California</h2>
               </div>
-              
             </div>
           </div>
 
-
           <div class="card w-100 bg-base-100 shadow-xl pb-4 my-4">
-            <div class="card-body"> 
-              <p>It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content</p>
+            <div class="card-body">
+              <p>
+                It is a long established fact that by the readable content of a
+                lot layout. The point of using Lorem a more-or-less normal
+                distribu to using Content here, content
+              </p>
             </div>
-            <div className='flex justify-center items-center'>
-              <img src={newpic} alt="img" />
-              <div className='mx-4'>
-              <h1>Winson Herry</h1>
-              
-              <h2>California</h2>
+            <div className="flex justify-center items-center ">
+              <img
+                className="rounded-full ring ring-primary"
+                src={newpic}
+                alt="img"
+              />
+              <div className="mx-4">
+                <h1>Winson Herry</h1>
+
+                <h2>California</h2>
               </div>
-              
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* form ..........................................*/}
 
 
+      <section className="text-center py-20 mt-8 " style={{
+          background: `url(${appint})`,
+        }} >
+          <h1 className='text-xl text-primary font-bold my-4'>Contact Us</h1>
+          <h1 className='text-4xl text-white my-8'>Stay connected with us</h1>
+        <div className=''>
+          <form >
+
+          <input
+            type="text"
+            placeholder="Email Address"
+            class="input input-bordered input-md w-full max-w-xs"
+          />
+          <br /> <br />
+
+          <input
+            type="text"
+            placeholder="subject"
+            class="input input-bordered input-md w-full max-w-xs"
+          />  <br />
+           <br />
+
+          <textarea style={{
+
+              height:100
+            
+            }} className='  w-80 rounded-lg'
+            type="textarea"
+            placeholder="Your Message" 
+            class="input input-bordered  w-full max-w-xs"
+          />
+          <br /> <br />
+          <input className='text-white font-bold  border-transparent bg-gradient-to-r text-bold from-primary to-secondary px-8 py-3 rounded-lg' type="submit" />
+          </form>
         </div>
       </section>
     </div>
