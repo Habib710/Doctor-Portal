@@ -1,0 +1,8 @@
+.coustom-css li:hover{
+    background-color: #3A4256;
+    color: aliceblue;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+
+}
+
